@@ -1,0 +1,16 @@
+{
+  "name": "domore",
+  "version": "0.0.1",
+  "description": "A wrapper around the Domo server-side API to add much needed functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/searchdiscovery/domore.git"
+  },
+  "author": "Search Discovery, Inc",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/searchdiscovery/domore#readme"
+}
