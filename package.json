@@ -12,5 +12,8 @@
   },
   "author": "Search Discovery, Inc",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/searchdiscovery/domore#readme"
+  "homepage": "https://bitbucket.org/searchdiscovery/domore#readme",
+  "dependencies": {
+    "domo-sdk": "^2.0.1"
+  }
 }
