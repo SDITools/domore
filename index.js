@@ -12,7 +12,7 @@ class DomoreClient {
 
     this.domoClient = new DomoClient(clientId, clientSecret, scopes, host);
     this.user = new User(this.domoClient);
-    this.datasets = new Dataset(this.domoClient);
+    this.dataset = new Dataset(this.domoClient);
   }
 
   get domo() {
@@ -24,7 +24,7 @@ class DomoreClient {
   }
 
   get datasets() {
-    return this.datasets;
+    return this.dataset;
   }
 }
 
