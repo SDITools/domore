@@ -2,6 +2,7 @@ const {DomoClient} = require('domo-sdk');
 const DomoConstants = require('domo-sdk/dist/common/Constants');
 const User = require('./lib/user');
 const Dataset = require('./lib/dataset');
+const Pdp = require('./lib/pdp');
 
 class DomoreClient {
   constructor(clientId, clientSecret, scopes, host = 'api.domo.com') {
@@ -13,6 +14,7 @@ class DomoreClient {
     this.domoClient = new DomoClient(clientId, clientSecret, scopes, host);
     this.user = new User(this.domoClient);
     this.dataset = new Dataset(this.domoClient);
+    this.policy = new Pdp(this.domoClient);
   }
 
   get domo() {
@@ -25,6 +27,10 @@ class DomoreClient {
 
   get datasets() {
     return this.dataset;
+  }
+
+  get policies() {
+    return this.policy;
   }
 }
 
