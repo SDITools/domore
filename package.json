@@ -14,6 +14,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/searchdiscovery/domore#readme",
   "dependencies": {
-    "domo-sdk": "^2.0.1"
+    "domo-sdk": "^2.0.1",
+    "fast-csv": "^2.4.1"
   }
 }
