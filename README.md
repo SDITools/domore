@@ -7,7 +7,17 @@ A drop-in replacement for the domo-sdk that adds additional much-needed function
 Installation
 ------------
 
-`npm install git+ssh://git@bitbucket.org/searchdiscovery/domore.git`
+To install this pacakge in another project, use the following:
+
+`npm install @searchdiscovery/domore`
+
+However, since this is a private npm package, `npm install` will most likely fail when you try to install this package.
+
+You will need to add the following line to your ~/.npmrc file:
+
+`//registry.npmjs.org/:_authToken=get-the-token-from-1password`
+
+**Important!!** You will also need to set up this token for any production environments that also will need to install the package (ie. Heroku). There is [documentation](https://medium.com/@oscargodson/npm-private-modules-with-heroku-25a171ce022e) on how to do this.
 
 
 Usage
