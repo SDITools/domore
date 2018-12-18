@@ -22,8 +22,8 @@ describe('datasets', async () => {
       let stubList = sinon.stub(client.dataset, 'list')
       stubList.withArgs().resolves(datasetFixtures)
       stubList.withArgs(50, 0).resolves(datasetFixtures.slice(0, 50))
-      stubList.withArgs(50, 1).resolves(datasetFixtures.slice(50, 100))
-      stubList.withArgs(50, 2).resolves(datasetFixtures.slice(100, 150))
+      stubList.withArgs(50, 50).resolves(datasetFixtures.slice(50, 100))
+      stubList.withArgs(50, 100).resolves(datasetFixtures.slice(100, 150))
     })
 
     afterEach(async() => {
