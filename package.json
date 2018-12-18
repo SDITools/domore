@@ -1,6 +1,6 @@
 {
   "name": "@searchdiscovery/domore",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "A wrapper around the Domo server-side API to add much needed functionality.",
   "main": "index.js",
   "scripts": {
