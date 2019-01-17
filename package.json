@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/searchdiscovery/domore.git"
+    "url": "https://github.com/SDITools/domore"
   },
   "author": "Search Discovery, Inc",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/searchdiscovery/domore#readme",
+  "homepage": "https://github.com/SDITools/domore",
   "dependencies": {
     "domo-sdk": "^2.0.1",
     "fast-csv": "^2.4.1",
