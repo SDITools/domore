@@ -1,6 +1,6 @@
 {
   "name": "@searchdiscovery/domore",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "A wrapper around the DOMO Node SDK to add needed functionality.",
   "main": "index.js",
   "scripts": {
